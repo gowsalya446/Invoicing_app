@@ -1,0 +1,55 @@
+.head{
+    margin-top: 20px;
+    margin-right: 40px;
+    
+}
+.form{
+    height: 550px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px grey solid;
+    text-align: center;
+    box-shadow: 2px 2px  2px 2px rgba(0, 0,0, 0.30);
+    padding:10px;
+    margin-left: 390px;
+    margin-top: 50px;
+    background-color: black;
+    
+    
+
+}
+.reg{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    
+}
+.field{
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:7px;
+    flex-direction: column;
+}
+.input{
+    width: 300px;
+    border: none;
+    background-color: rgb(217, 215, 215);
+    height: 30px;
+    
+    
+}
+label{
+    color: aliceblue;
+}
+.login{
+    color: aliceblue;
+   
+
+}
+.err{
+    color: brown;
+}
